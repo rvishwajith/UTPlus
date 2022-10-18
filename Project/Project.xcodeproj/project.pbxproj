@@ -15,6 +15,7 @@
 		24CEEDA128FF2FFA003A75F4 /* ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CEEDA028FF2FFA003A75F4 /* ProjectUITests.swift */; };
 		24CEEDA328FF2FFA003A75F4 /* ProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CEEDA228FF2FFA003A75F4 /* ProjectUITestsLaunchTests.swift */; };
 		24CEEDB028FF3ADF003A75F4 /* Previews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CEEDAF28FF3ADF003A75F4 /* Previews.swift */; };
+		24CEEDB228FF3DA7003A75F4 /* ClassSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CEEDB128FF3DA7003A75F4 /* ClassSchedule.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		24CEEDA028FF2FFA003A75F4 /* ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectUITests.swift; sourceTree = "<group>"; };
 		24CEEDA228FF2FFA003A75F4 /* ProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		24CEEDAF28FF3ADF003A75F4 /* Previews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Previews.swift; sourceTree = "<group>"; };
+		24CEEDB128FF3DA7003A75F4 /* ClassSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassSchedule.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,11 +98,12 @@
 		24CEED8428FF2FF9003A75F4 /* Project */ = {
 			isa = PBXGroup;
 			children = (
-				24CEED8528FF2FF9003A75F4 /* ProjectApp.swift */,
+				24CEEDB128FF3DA7003A75F4 /* ClassSchedule.swift */,
 				24CEED8728FF2FF9003A75F4 /* CalendarSelection.swift */,
 				24CEEDAF28FF3ADF003A75F4 /* Previews.swift */,
 				24CEED8928FF2FFA003A75F4 /* Assets.xcassets */,
 				24CEED8B28FF2FFA003A75F4 /* Preview Content */,
+				24CEED8528FF2FF9003A75F4 /* ProjectApp.swift */,
 			);
 			path = Project;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24CEEDB028FF3ADF003A75F4 /* Previews.swift in Sources */,
+				24CEEDB228FF3DA7003A75F4 /* ClassSchedule.swift in Sources */,
 				24CEED8828FF2FF9003A75F4 /* CalendarSelection.swift in Sources */,
 				24CEED8628FF2FF9003A75F4 /* ProjectApp.swift in Sources */,
 			);
