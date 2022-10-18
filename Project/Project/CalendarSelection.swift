@@ -15,24 +15,21 @@ struct CalendarSelection: View {
 		MenuSelectionItem(title: "Sports Calendar"),
 		MenuSelectionItem(title: "Handshake Events"),
 	]
-	private let classScheduleView: ClassScheduleWebView = ClassScheduleWebView(url: URL(string: "https://my.utexas.edu/UT-Austin-Production/Welcome")!)
+	
+	private let classScheduleView: ClassScheduleView = ClassScheduleView(
+		url: URL(string: "https://my.utexas.edu/UT-Austin-Production/Welcome")!)
+	
+	private let academicCalendarView: AcademicCalendarView = AcademicCalendarView()
 	
 	var body: some View {
 		NavigationView {
 			List {
 				ForEach(menuItems) { menuItems in
-					NavigationLink(menuItems.title, destination: classScheduleView)
+					NavigationLink(menuItems.title, destination: academicCalendarView)
 				}
 			}
 			.navigationTitle("Calendar")
 			.listStyle(.insetGrouped)
 		}
     }
-}
-
-struct ClassScheduleView: View {
-	var body: some View {
-		Text("Today's Classes")
-			.padding()
-	}
 }

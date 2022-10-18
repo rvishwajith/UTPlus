@@ -12,7 +12,7 @@ import SwiftUI
 struct ProjectApp: App {
     var body: some Scene {
         WindowGroup {
-            CalendarSelection()
+			AcademicCalendarView() //CalendarSelection()
         }
     }
 }

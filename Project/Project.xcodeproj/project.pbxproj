@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24235A8F28FF548C009FC83F /* AcademicCalendar.js in Resources */ = {isa = PBXBuildFile; fileRef = 24235A8E28FF548C009FC83F /* AcademicCalendar.js */; };
 		24CEED8628FF2FF9003A75F4 /* ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CEED8528FF2FF9003A75F4 /* ProjectApp.swift */; };
 		24CEED8828FF2FF9003A75F4 /* CalendarSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CEED8728FF2FF9003A75F4 /* CalendarSelection.swift */; };
 		24CEED8A28FF2FFA003A75F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24CEED8928FF2FFA003A75F4 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 		24CEEDA328FF2FFA003A75F4 /* ProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CEEDA228FF2FFA003A75F4 /* ProjectUITestsLaunchTests.swift */; };
 		24CEEDB028FF3ADF003A75F4 /* Previews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CEEDAF28FF3ADF003A75F4 /* Previews.swift */; };
 		24CEEDB228FF3DA7003A75F4 /* ClassSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CEEDB128FF3DA7003A75F4 /* ClassSchedule.swift */; };
+		24CEEDB428FF4429003A75F4 /* AcademicCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CEEDB328FF4429003A75F4 /* AcademicCalendar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24235A8E28FF548C009FC83F /* AcademicCalendar.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = AcademicCalendar.js; sourceTree = "<group>"; };
 		24CEED8228FF2FF9003A75F4 /* Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24CEED8528FF2FF9003A75F4 /* ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectApp.swift; sourceTree = "<group>"; };
 		24CEED8728FF2FF9003A75F4 /* CalendarSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarSelection.swift; sourceTree = "<group>"; };
@@ -48,6 +51,7 @@
 		24CEEDA228FF2FFA003A75F4 /* ProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		24CEEDAF28FF3ADF003A75F4 /* Previews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Previews.swift; sourceTree = "<group>"; };
 		24CEEDB128FF3DA7003A75F4 /* ClassSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassSchedule.swift; sourceTree = "<group>"; };
+		24CEEDB328FF4429003A75F4 /* AcademicCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcademicCalendar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24235A8C28FF53C6009FC83F /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				24CEED8928FF2FFA003A75F4 /* Assets.xcassets */,
+				24CEED8528FF2FF9003A75F4 /* ProjectApp.swift */,
+				24CEEDAF28FF3ADF003A75F4 /* Previews.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		24235A8D28FF5455009FC83F /* JS */ = {
+			isa = PBXGroup;
+			children = (
+				24235A8E28FF548C009FC83F /* AcademicCalendar.js */,
+			);
+			path = JS;
+			sourceTree = "<group>";
+		};
 		24CEED7928FF2FF9003A75F4 = {
 			isa = PBXGroup;
 			children = (
@@ -100,10 +122,10 @@
 			children = (
 				24CEEDB128FF3DA7003A75F4 /* ClassSchedule.swift */,
 				24CEED8728FF2FF9003A75F4 /* CalendarSelection.swift */,
-				24CEEDAF28FF3ADF003A75F4 /* Previews.swift */,
-				24CEED8928FF2FFA003A75F4 /* Assets.xcassets */,
+				24CEEDB328FF4429003A75F4 /* AcademicCalendar.swift */,
+				24235A8D28FF5455009FC83F /* JS */,
+				24235A8C28FF53C6009FC83F /* Other */,
 				24CEED8B28FF2FFA003A75F4 /* Preview Content */,
-				24CEED8528FF2FF9003A75F4 /* ProjectApp.swift */,
 			);
 			path = Project;
 			sourceTree = "<group>";
@@ -239,6 +261,7 @@
 			files = (
 				24CEED8D28FF2FFA003A75F4 /* Preview Assets.xcassets in Resources */,
 				24CEED8A28FF2FFA003A75F4 /* Assets.xcassets in Resources */,
+				24235A8F28FF548C009FC83F /* AcademicCalendar.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24CEEDB028FF3ADF003A75F4 /* Previews.swift in Sources */,
+				24CEEDB428FF4429003A75F4 /* AcademicCalendar.swift in Sources */,
 				24CEEDB228FF3DA7003A75F4 /* ClassSchedule.swift in Sources */,
 				24CEED8828FF2FF9003A75F4 /* CalendarSelection.swift in Sources */,
 				24CEED8628FF2FF9003A75F4 /* ProjectApp.swift in Sources */,

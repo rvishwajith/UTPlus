@@ -5,7 +5,7 @@ import WebKit
 import SwiftUI
 import WebKit
  
-struct ClassScheduleWebView: UIViewRepresentable {
+struct ClassScheduleView: UIViewRepresentable {
  
 	var url: URL
  
